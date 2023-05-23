@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/rodrigo/.nvm/versions/node/v16.14.2/bin/node /Users/rodrigo/.nvm/versions/node/v16.14.2/bin/yarn add cors express bodt-parser
+
+PATH: 
+  /Users/rodrigo/.nvm/versions/node/v16.14.2/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rodrigo/.nvm/versions/node/v16.14.2/bin:/Users/rodrigo/.local/share/zinit/polaris/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/rodrigo/.fig/bin:/Users/rodrigo/.local/bin:/Users/rodrigo/Android/Sdk/emulator:/Users/rodrigo/Android/Sdk/tools:/Users/rodrigo/Android/Sdk/tools/bin:/Users/rodrigo/Android/Sdk/platform-tools:/Users/rodrigo/Android/Sdk/emulator:/Users/rodrigo/Android/Sdk/tools:/Users/rodrigo/Android/Sdk/tools/bin:/Users/rodrigo/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bodt-parser: Not found
+      at Request.params.callback [as _callback] (/Users/rodrigo/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/Users/rodrigo/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/rodrigo/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/rodrigo/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
